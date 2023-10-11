@@ -32,7 +32,7 @@ const apiUrl = 'https://restcountries.com/v3.1/all?fields=name,capital,flags';
                 flag.alt = `${country.name.common} Flag`;
 
                 const name = document.createElement('h2');
-                name.innerHTML = `<p class="name">Capital:<span> ${country.name.common}<span></p>`;
+                name.innerHTML = `<p class="name">Name:<span> ${country.name.common}<span></p>`;
 
                 const capital = document.createElement('p');
                 capital.innerHTML = `<p class="capital">Capital:<span> ${country.capital}<span></p>`;
